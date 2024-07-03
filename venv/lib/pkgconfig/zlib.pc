@@ -1,0 +1,13 @@
+prefix=/Users/arshdeepsingh/Downloads/Langsmith-main/venv
+exec_prefix=/Users/arshdeepsingh/Downloads/Langsmith-main/venv
+libdir=/Users/arshdeepsingh/Downloads/Langsmith-main/venv/lib
+sharedlibdir=/Users/arshdeepsingh/Downloads/Langsmith-main/venv/lib
+includedir=/Users/arshdeepsingh/Downloads/Langsmith-main/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
